@@ -1,0 +1,60 @@
+/*Cabeçalho do site*/
+body {
+    background-image: url('images/fundo.png');
+}
+
+.menu{
+    background-color: rgb(150, 150, 116);
+    width: 70%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(19, 19, 95);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    
+}
+
+/*Conteúdo*/
+
+.conteudo{
+    background-color: white;
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.conteudo h2{
+    margin: 0;
+    color: rgb(150, 150, 116);
+    display: flex;
+    padding: 10px;
+}
+
+.conteudo img{
+    padding: 10px;
+    background-color:rgb(150, 150, 116);
+    display: flex;
+    margin-left: 10px;
+}
+
+.conteudo p{
+    
+    padding: 10px;
+}
+
+
+/*Rodapé*/
+
+.rodape{
+    font-weight: bold;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
